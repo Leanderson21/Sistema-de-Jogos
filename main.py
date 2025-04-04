@@ -1,7 +1,7 @@
 from personagem import Personagem
 
 
-heroi = Personagem("Meliodas", 0)
+heroi = Personagem("Meliodas", 10)
 
-print("Nome:", heroi.get_nome())
-print("Nível:", heroi.get_nivel())
+heroi.exibir_status()
+
